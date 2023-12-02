@@ -1,0 +1,66 @@
+body {
+    font-family:  sans-serif;
+    background-color:black;
+    color: white;
+    text-align: center;
+    
+  }
+
+  #todoInput {
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius:25px;
+    background-color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  #todoList {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .todoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .todoItem input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+  }
+
+  .editBtn, .saveBtn, .deleteBtn {
+    cursor: pointer;
+  }
+
+  .editBtn, .saveBtn {
+    color: blue;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .deleteBtn {
+    color: red;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+
+  }
+  button{
+    color: blue;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+  }
